@@ -43,7 +43,7 @@
                   <img src="img/logo.png" class="ing-fluid">
                 </div>
                 <div class="col-12 col-sm-4 col-md-3 align-self-center">
-                  <a href="#" class="btn btn-primary btn-warning btn-block">Reserve Table</a>
+                  <a href="reservation" class="btn btn-primary btn-warning btn-block">Reserve Table</a>
                 </div>
             </div>
         </div>
@@ -103,53 +103,55 @@
               Reserve a Table
             </h3>
             <div class="card-body">
-              <div class="row">
-                <dd class="col-md-2">Number of Guests</dd>
-                <dd class="col-md-10">
-                  <div class="custom-control custom-radio custom-control-inline">
-                    <input type="radio" class="custom-control-input" id="Inline1" name="inline">
-                    <label class="custom-control-label" for="Inline1">1</label>
-                  </div>
-                  <div class="custom-control custom-radio custom-control-inline">
-                    <input type="radio" class="custom-control-input" id="Inline2" name="inline">
-                    <label class="custom-control-label" for="Inline2">2</label>
-                  </div>
-                  <div class="custom-control custom-radio custom-control-inline">
-                    <input type="radio" class="custom-control-input" id="Inline3" name="inline">
-                    <label class="custom-control-label" for="Inline3">3</label>
-                  </div>
-                  <div class="custom-control custom-radio custom-control-inline">
-                    <input type="radio" class="custom-control-input" id="Inline4" name="inline">
-                    <label class="custom-control-label" for="Inline4">4</label>
-                  </div>
-                  <div class="custom-control custom-radio custom-control-inline">
-                    <input type="radio" class="custom-control-input" id="Inline5" name="inline">
-                    <label class="custom-control-label" for="Inline5">5</label>
-                  </div>
-                  <div class="custom-control custom-radio custom-control-inline">
-                    <input type="radio" class="custom-control-input" id="Inline6" name="inline">
-                    <label class="custom-control-label" for="Inline6">6</label>
-                  </div>
-              </div>
-              <div class="row">
-                <dd class="col-md-2">Date and Time</dd>
-                <dd class="col-md-4">
-                  <div class="input-group date" data-provide="datepicker">
-                      <input type="text" class="form-control" placeholder="Date">
-                  </div>
-                </dd>
-                <dd class="col-md-4">
-                  <div class="input-group date" data-provide="datepicker">
-                      <input type="text" class="form-control" placeholder="Time">
-                  </div>
-                </dd>
-              </div>
-              <div class="row">
-                <dd class="col-md-2"></dd>
-                <dd class="col-md-10">
-                  <a href="#" class="btn btn-primary">Reserve</a>
-                </dd>
-              </div>
+              <form id="reservation">
+                <div class="row">
+                  <dd class="col-md-2">Number of Guests</dd>
+                  <dd class="col-md-10">
+                    <div class="custom-control custom-radio custom-control-inline">
+                      <input type="radio" class="custom-control-input" id="Inline1" name="inline">
+                      <label class="custom-control-label" for="Inline1">1</label>
+                    </div>
+                    <div class="custom-control custom-radio custom-control-inline">
+                      <input type="radio" class="custom-control-input" id="Inline2" name="inline">
+                      <label class="custom-control-label" for="Inline2">2</label>
+                    </div>
+                    <div class="custom-control custom-radio custom-control-inline">
+                      <input type="radio" class="custom-control-input" id="Inline3" name="inline">
+                      <label class="custom-control-label" for="Inline3">3</label>
+                    </div>
+                    <div class="custom-control custom-radio custom-control-inline">
+                      <input type="radio" class="custom-control-input" id="Inline4" name="inline">
+                      <label class="custom-control-label" for="Inline4">4</label>
+                    </div>
+                    <div class="custom-control custom-radio custom-control-inline">
+                      <input type="radio" class="custom-control-input" id="Inline5" name="inline">
+                      <label class="custom-control-label" for="Inline5">5</label>
+                    </div>
+                    <div class="custom-control custom-radio custom-control-inline">
+                      <input type="radio" class="custom-control-input" id="Inline6" name="inline">
+                      <label class="custom-control-label" for="Inline6">6</label>
+                    </div>
+                </div>
+                <div class="row">
+                  <dd class="col-md-2">Date and Time</dd>
+                  <dd class="col-md-4">
+                    <div class="input-group date" data-provide="datepicker">
+                        <input type="text" class="form-control" placeholder="Date">
+                    </div>
+                  </dd>
+                  <dd class="col-md-4">
+                    <div class="input-group date" data-provide="datepicker">
+                        <input type="text" class="form-control" placeholder="Time">
+                    </div>
+                  </dd>
+                </div>
+                <div class="row">
+                  <dd class="col-md-2"></dd>
+                  <dd class="col-md-10">
+                    <a href="#" class="btn btn-primary">Reserve</a>
+                  </dd>
+                </div>
+              </form>
             </div>
           </div>
         </div>
