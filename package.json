@@ -42,6 +42,7 @@
     "bootstrap": "^4.4.1",
     "bootstrap-social": "^5.1.1",
     "browser-sync": "^2.26.7",
+    "clean-css": "^4.2.3",
     "del": "^5.1.0",
     "font-awesome": "^4.7.0",
     "gulp": "^4.0.2",
@@ -58,6 +59,7 @@
     "popper.js": "^1.16.1",
     "uglify": "^0.1.5",
     "uglify-js": "^3.9.1",
-    "uglifyjs": "^2.4.11"
+    "uglifyjs": "^2.4.11",
+    "underscore.string": "^3.3.5"
   }
 }
